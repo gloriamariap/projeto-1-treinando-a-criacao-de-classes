@@ -11,7 +11,7 @@ class Product {
         console.log(`
              Nome do produto: ${this.name}
              Descrição do produto: ${this.description}
-             Valor do produto${this.price.tofixed(2)}
+             Valor do produto: R$${this.price.tofixed(2)}
              Quantidade do produto: ${this.inStock}
         `)
     }
