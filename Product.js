@@ -26,6 +26,6 @@ class Product {
   }
 }
 
-const notebook = new Product('Notebook', 'Notebook Nitro 7', '2000')
+const notebook = new Product('Notebook', 'Notebook Nitro 7', 2000)
 notebook.addToStock(10)
 notebook.calculateDiscount(5)
